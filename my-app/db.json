@@ -1,0 +1,97 @@
+{
+  "usuarios": [
+    {
+      "id_user": 1,
+      "nombre": "Eduardo Pérez",
+      "correo": "eduardo@example.com",
+      "contraseña": "contraseña123"
+    },
+    {
+      "id_user": 2,
+      "nombre": "Ana Rodríguez",
+      "correo": "ana@example.com",
+      "contraseña": "claveSegura456"
+    },
+    {
+      "id_user": 3,
+      "nombre": "Carlos Gómez",
+      "correo": "carlos@example.com",
+      "contraseña": "mipasswordsecreto"
+    },
+    {
+      "id_user": 4,
+      "nombre": "Admin",
+      "correo": "admin@example.com",
+      "contraseña": "admin123"
+    },
+    {
+      "id_user": 5,
+      "nombre": "Laura González",
+      "correo": "laura@example.com",
+      "contraseña": "laurapass789"
+    },
+    {
+      "id_user": 6,
+      "nombre": "Juan Martínez",
+      "correo": "juan@example.com",
+      "contraseña": "juanpassword456"
+    },
+    {
+      "id_user": 7,
+      "nombre": "María López",
+      "correo": "maria@example.com",
+      "contraseña": "maria12345"
+    }
+  ],
+  "productos": [
+    {
+      "id_producto": 1,
+      "nombre": "Chocolates",
+      "precio": 2.99,
+      "categoria": "Chocolate",
+      "cantidad": 1
+    },  
+    {
+      "id_producto": 2,
+      "nombre": "Gomitas",
+      "precio": 1.49,
+      "categoria": "Gomitas",
+      "cantidad": 15
+    },
+    {
+      "id_producto": 3,
+      "nombre": "Paletas",
+      "precio": 0.99,
+      "categoria": "Paletas",
+      "cantidad": 30
+    },
+    {
+      "id_producto": 4,
+      "nombre": "Caramelos",
+      "precio": 1.99,
+      "categoria": "Caramelos",
+      "cantidad": 25
+    },
+    {
+      "id_producto": 5,
+      "nombre": "Bebida gaseosa",
+      "precio": 1.79,
+      "categoria": "Bebidas",
+      "cantidad": 50
+    },
+    {
+      "id_producto": 6,
+      "nombre": "Papitas",
+      "precio": 1.29,
+      "categoria": "Snacks",
+      "cantidad": 40
+    },
+    {
+      "id_producto": 7,
+      "nombre": "Chicles",
+      "precio": 0.79,
+      "categoria": "Chicles",
+      "cantidad": 60
+    }
+  ]
+}

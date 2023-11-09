@@ -1,0 +1,85 @@
+/* formulario.css */
+
+body {
+    background-color: #001f3f; /* Fondo azul oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Estilo para el contenedor del formulario */
+  section {
+    
+    text-align: center;
+    background-color: #0074b9; /* Fondo azul claro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; /* Ancho del contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+  }
+  
+  /* Estilo para el encabezado del formulario */
+  h1 {
+    font-size: 24px;
+    color: #fff; /* Texto en color blanco */
+    margin-bottom: 10px; /* Espacio inferior para separación */
+  }
+  
+  /* Estilo para el formulario */
+  .formulario {
+    width: 100%; /* Utiliza el ancho completo del contenedor */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacio entre elementos */
+    padding: 1px;
+  }
+  
+  /* Estilo para los campos de entrada */
+  input {
+    background-color: #fff; /* Fondo blanco para campos de entrada */
+    width: 94%; /* Utiliza el ancho completo del contenedor */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none; /* Quita el contorno del campo al hacer clic */
+  }
+  
+  /* Estilo para el botón */
+  button {
+    background-color: #0056b3; /* Azul oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #003f81; /* Cambio de color al pasar el mouse */
+  }
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #003f81;
+    color: #ffffff;
+    font-size: large;
+  }
+.Titulo{
+  margin-top: 10px;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: #0074b9;
+  border-radius: 10px;
+  border: solid 5px;
+}
