@@ -1,0 +1,124 @@
+/* formulario.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario-section {
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #007BFF;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.register-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas */
+  justify-content: space-around; /* Espaciado uniforme entre los elementos */
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  flex: 0 0 calc(33.33% - 40px); /* Calcula el ancho para mostrar tres cartas en una fila */
+  box-sizing: border-box;
+}
+
+/* Añade un estilo para limpiar cada tercer elemento y comenzar una nueva fila */
+.card:nth-child(3n+1) {
+  clear: both;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #5a5a5a;
+}
+
+
+.Titulo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.formulario {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Agregado para consistencia */
+}
+
+.formulario-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333; /* Cambiado para mejorar la legibilidad */
+}
+
+.formulario-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulario-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-button:hover {
+  background-color: #0056b3;
+}
