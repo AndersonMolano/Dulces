@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './Componentes/Login/Login';
 import Register from './Componentes/Register/Register';
 import Home from './home';
+import Venta from './Componentes/Ventas/Venta';
 import Formulario from './Componentes/Panel/Formulario';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path='/home' element={<Home/>} /> 
       <Route path='/formulario' element={<Formulario />} />
+      <Route path='/ventas' element={<Venta/>} />
     </Routes>
   </BrowserRouter>
   );

@@ -26,7 +26,9 @@ body {
 }
 
 .register-button {
-  background-color: #28a745;
+  width: 250px;
+  height: 50px;
+  background-color: rgb(18, 21, 207);
   color: #fff;
   padding: 10px;
   border: none;
@@ -47,7 +49,7 @@ body {
 }
 
 .card {
-  border: 1px solid #ccc;
+  border: 1px solid #0013e3;
   border-radius: 8px;
   padding: 20px;
   margin: 20px;
@@ -121,4 +123,60 @@ body {
 
 .formulario-button:hover {
   background-color: #0056b3;
+}
+.search-container {
+  
+  margin: 10px
+}
+
+.search-content {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del flexbox a columna */
+  align-items: center;
+  border-radius: 40px;
+  height: 70px;
+  width: 820px;
+  
+}
+
+.search-text {
+ margin-left: 17pc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px; /* Ajusta el espacio entre el texto y el input */
+}
+
+.form-control {
+  width: 500px;
+  padding: 10px;
+  border: 8px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.comprar_button {
+  
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+
 }

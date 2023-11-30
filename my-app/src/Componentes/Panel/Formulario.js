@@ -45,6 +45,7 @@ const Formulario = ({ setUser }) => {
               <h2 className="card-title">{producto.NombreProducto}</h2>
               <p className="card-description">{producto.Descripcion}</p>
               <p className="card-price">Precio: {producto.Precio}</p>
+              <a className='comprar_button' href='/ventas'>Comprar</a>
             </div>
           ))
         )}
